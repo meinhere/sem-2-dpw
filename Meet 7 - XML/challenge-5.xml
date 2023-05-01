@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xml_style.xsl"?>
+<academic>
+	<student>
+		<id>12345</id>
+		<name>Almira Wijaya</name>
+	</student>
+	<student>
+		<id>12346</id>
+		<name>Danuar Aldi</name>
+	</student>
+</academic>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<academic>
+	<student>
+		<id>112</id>
+		<name>Sabil Ahmad</name>
+	</student>
+	<student>
+		<id>113</id>
+		<name>Danuar Aldi</name>
+	</student>
+
+	<lecture>
+		<id>A123</id>
+		<name>Beni Bernardi</name>
+	</lecture>
+	<lecture>
+		<id>A124</id>
+		<name>Catur Cahyono</name>
+	</lecture>
+</academic>

@@ -1,0 +1,12 @@
+.headlines, .sublines {
+	font-family: arial;
+	color: blue;
+	background: cyan;
+	font-weight: bold;
+}
+.headlines {
+	font-size: 14pt;
+}
+.sublines {
+	font-size: 14pt;
+}

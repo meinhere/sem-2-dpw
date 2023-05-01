@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<title>Challenge#4</title>
+</head>
+<body>
+	<form action="submit.html" method="post">
+		<!-- Text Area -->
+		<label for="notes">Catatan</label>
+		<br>
+		<textarea id="notes" name="notes" cols="40" rows="6"></textarea>
+		<br><br>
+
+		<!-- Validasi required -->
+		<label for="comment">Komentar</label>
+		<input type="text" name="comment" id="comment" required>
+		<br><br>
+		<!-- placeholder -->
+		<label for="comment2">Komentar</label>
+		<input type="text" name="comment2" id="comment2" placeholder="masukkan komentar" required>
+		<br><br>
+		<!-- date -->
+		<label for="birthdate">Tanggal Lahir</label>
+		<input type="date" name="birthdate" id="birthdate" required>
+		<br><br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>

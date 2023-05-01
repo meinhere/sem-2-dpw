@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course cid="c1">
+	<title>Math 1</title>
+	<description>Introduction to Math<description>
+</course>
+<course cid=c2>
+	<title>Math 2</title>
+	<description>Intermediate Math</description>
+</course>
+<course cid="c3">
+	<title>Math 3</title>
+	<Description>Advance Math</description>
+</course>
+
+<!-- 
+ 1. Tidak ada elemen root
+ 2. baris ke-4 kurang '/' di tag penutup
+ 3. baris ke-6 tidak ada (" ") pada atribute cid
+ 4. baris ke-12 tag pembuka tidak sama dengan tag penutup
+-->

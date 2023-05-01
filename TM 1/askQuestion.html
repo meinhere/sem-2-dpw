@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hubungi Kami | Alliance Party</title>
+  </head>
+  <body>
+    <form action="responseQuestion.html" method="post">
+      <table align="center" width="50%">
+        <tr>
+          <td colspan="5" height="80" align="center">
+            <img src="gambar/headerLogo.svg" alt="Logo Website" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="5" height="10"></td>
+        </tr>
+
+        <tr>
+          <td colspan="5" bgcolor="#c4bf94">
+            <h2 align="center">
+              <font face="arial" color="black">Hubungi Kami</font>
+            </h2>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="5" height="40"></td>
+        </tr>
+
+        <tr>
+          <td width="15%" rowspan="19"></td>
+          <td>
+            <label for="nama_lengkap"
+              ><font face="arial">Nama Lengkap</font></label
+            >
+          </td>
+          <td>:</td>
+          <td>
+            <input
+              type="text"
+              name="nama_lengkap"
+              id="nama_lengkap"
+              size="30"
+              placeholder="Masukkan nama"
+              required
+            />
+          </td>
+          <td width="15%" rowspan="19"></td>
+        </tr>
+        <tr>
+          <td colspan="3" height="20"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="email"><font face="arial">Email</font></label>
+          </td>
+          <td>:</td>
+          <td>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              size="30"
+              placeholder="Masukkan email"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" height="20"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="telefon"><font face="arial">No HP</font></label>
+          </td>
+          <td>:</td>
+          <td>
+            <input
+              type="number"
+              name="telefon"
+              id="telefon"
+              size="30"
+              placeholder="xxx-xxxxxxx"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" height="20"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="alamat"><font face="arial">Alamat</font></label>
+          </td>
+          <td>:</td>
+          <td>
+            <textarea
+              id="alamat"
+              name="alamat"
+              placeholder="Masukkan alamat"
+              cols="31"
+              rows="5"
+              required
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" height="20"></td>
+        </tr>
+
+        <tr>
+          <td rowspan="3">
+            <label for="kode_pos"><font face="arial">Kode Pos</font></label>
+          </td>
+          <td>:</td>
+          <td>
+            <input
+              type="number"
+              name="kode_pos"
+              id="kode_pos"
+              placeholder="xxxxx"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" height="20"></td>
+        </tr>
+
+        <tr>
+          <!-- <td><label for="pertanyaan"><font face="arial">Jenis Pertanyaan</font></label></td> -->
+          <td>:</td>
+          <td>
+            <select id="pertanyaan" name="pertanyaan">
+              <option value="1">Tentang Website</option>
+              <option value="2">Visi Organisasi</option>
+              <option value="3">Sejarah</option>
+              <option value="4">Kegiatan</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" height="35"></td>
+        </tr>
+
+        <tr>
+          <td colspan="3" align="center" height="30" bgcolor="#c4bf94">
+            <label for="inp_pertanyaan"
+              ><font face="arial">Pertanyaan</font></label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" height="10"></td>
+        </tr>
+        <tr>
+          <td colspan="3" align="center">
+            <textarea
+              name="inp_pertanyaan"
+              id="inp_pertanyaan"
+              placeholder="Silahkan isi pertanyaan"
+              cols="55"
+              rows="8"
+              required
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" height="20"></td>
+        </tr>
+
+        <tr>
+          <td><font face="arial">Balas dengan</font></td>
+          <td>:</td>
+          <td>
+            <input type="radio" name="balas" id="balas1" checked />
+            <label for="balas1"><font face="arial">Email</font></label>
+            <input type="radio" name="balas" id="balas2" />
+            <label for="balas2"><font face="arial">SMS</font></label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" height="20"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <a href="index.html"><font face="arial"> &laquo; Kembali</font></a>
+          </td>
+          <td></td>
+          <td>
+            <button type="submit" name="Kirim">
+              <font face="arial">Kirim</font>
+            </button>
+            <button type="reset" name="Reset">
+              <font face="arial">Reset</font>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="5" height="20"></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

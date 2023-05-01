@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<title>Challenge#7</title>
+</head>
+<body>
+	<form action="submit.html" method="post">
+		<fieldset>
+			<legend>Data Registrasi</legend>
+
+			<table>
+				<tr>
+					<td><label for="username">Username:</label></td>
+					<td><input type="text" name="username" id="username" required /></td>
+				</tr>
+				<tr>
+					<td><label for="password">Password:</label></td>
+					<td><input type="password" name="password" id="password" required /></td>
+				</tr>
+				<tr>
+					<td><label for="date">Tanggal Lahir:</label></td>
+					<td><input type="date" name="date" id="date" required /></td>
+				</tr>
+				<tr>
+					<td><label for="telephone">Telepon:</label></td>
+					<td><input type="tel" name="telephone" id="telephone" placeholder="xxx-xxxxxxxx" required /></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<label>Jenis Kelamin:</label>
+						<label for="male">Laki-laki</label>
+						<input type="radio" name="gender" id="male" checked />
+						<label for="female">Perempuan</label>
+						<input type="radio" name="gender" id="female" required />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<label for="binary">Bersedia menerima iklan melalui email?</label>
+						<input type="checkbox" name="binary" id="binary" checked />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="submit" name="button1" value="Submit">
+						<input type="reset" name="button2" value="Reset">
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>

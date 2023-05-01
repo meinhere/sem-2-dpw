@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+/*	background-color: #9999ff;*/
+	font-family: Verdana, geneva, Arial, Helvetica, sans-serif;
+}
+
+.header {
+	height: 100px;
+	background-color: yellow;
+}
+.menu {
+	float: left;
+	width: 200px;
+	height: 300px;
+	background-color: blue;
+}
+.sidebar {
+	float: right;
+	width: 200px;
+	height: 300px;
+	background-color: salmon;
+}
+.content {
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 300px;
+	background-color: green;
+}
+.footer {
+	height: 100px;
+	clear: both;
+	background-color: gray;
+}
