@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Challenge #9</title>
+</head>
+<body>
+	<script>
+		function verifyDate(strDate) 
+		{ 
+		// Membuat RegExp Date. Perhatikan bahwa karakter berwarna biru adalah komponen pattern, sedangkan karakter berwarna merah tua adalah komponen modifier
+
+			var patt=/^(18|19|20)\d\d[-/](0[1-9]|1[012])[-/](0[1-9]|[12][0-9]|3[01])$/g;
+			return patt.test(strDate);
+		}
+		console.log(verifyDate("2099-13-31"));
+	</script>
+</body>
+</html>

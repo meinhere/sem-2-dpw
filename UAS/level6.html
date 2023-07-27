@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Level 6 - UAS DPW</title>
+</head>
+<body>
+	<script>
+		var isCorrect = false;
+
+		while (!isCorrect) {
+			var angka = prompt("Masukkan sebuah angka bilangan genap:");
+			var pattr = /^[\d]+$/;
+
+			if (pattr.test(angka)) {
+				if (angka % 2 == 0) {
+					document.write("<b>" + "Angka = " + angka + "</b>");
+					document.write("<h3>" + "SEGITIGA DERET ANGKA" + "</h3>");
+
+					for (var i = 1; i <= angka; i++) {
+						var output = "<span>"
+						for (var j = angka; j >= i; j--) {
+							if (i == 1 || i == angka) {
+								output += "<font style='color: red;'>" + j + " </font>";
+							} else {
+								output += j + " ";
+							}
+						}
+						output += "</span><br>";
+						document.write(output)
+					}
+					isCorrect = true;
+				} else {
+					alert("Masukan angka harus berupa bilangan genap!");
+				}
+			} else {
+				alert("Masukan harus berbentuk data numerik/angka");
+			}
+		}
+	</script>
+</body>
+</html>

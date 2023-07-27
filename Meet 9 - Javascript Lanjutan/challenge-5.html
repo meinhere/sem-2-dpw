@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Challenge #5</title>
+</head>
+<body>
+	<script>
+		function checkFill() {
+			if (document.myForm.surname.value == "" ) {
+				window.alert ("Please fill in the 'Your Name' box.");
+				document.myForm.surname.focus();
+				return false;
+			}
+			return true;
+		}
+	</script>
+	
+	<form name="myForm" action="successful.html" method="post"
+	onsubmit="return checkFill();">
+	Your Name: <input type="text" name="surname">
+	<input type="submit">
+</form>
+</body>
+</html>

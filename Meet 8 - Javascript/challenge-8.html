@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Challenge #8</title>
+</head>
+<body>
+	<script>
+		// Built-in Object
+		// String
+		str = "this is a string";
+		aIndex = str.indexOf('a');
+		strEMail = "sabil.ahmad@gmail.com";
+		arrEMail = strEMail.split("@");
+		arrName = arrEMail[0].split(".");
+		arrDomain = arrEMail[1].split(".");
+		// console.log(aIndex);
+
+		// Array
+		names = ["Carrie", "Ashley", "Zia", "Bob"];
+		sortName = names.sort();
+		// console.log(sortName);
+
+		// Math
+		intRandomInteger = Math.floor(Math.random() * 12);
+		// console.log(intRandomInteger);
+
+		// Date
+		date = new Date();
+		arrDayNames = ["Sunday","Monday","Tuesday","Wednesday","Thursday", "Friday","Saturday"];
+		strTodayIs = arrDayNames[date.getDay()];
+		// console.log(strTodayIs);
+	</script>
+</body>
+</html>
